@@ -1,0 +1,313 @@
+body {
+	font-family: 'Montserrat', sans-serif;
+	line-height: 1.5rem;
+	font-size: 12px;
+	margin: 0;
+}
+.top {
+	color: white;
+	background-image: url('images/topBgd.jpg');
+	background-size: cover;
+	background-position: center;
+	height: 700px;
+}
+h1 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 30px;
+	font-weight: 500;
+	color: #364455;
+	text-decoration: underline;
+}
+#nav-bar li {
+	color: #364455;
+	display: inline;
+	list-style: none;
+	padding-right: 50px;
+	font-size: 1rem;
+}
+#nav-bar a {
+	text-decoration: none;
+	color: #364455;
+}
+#frontpage h2 {
+	font-family: 'Great Vibes', cursive;
+	font-weight: lighter;
+	color: #C28604;
+	font-style: italic;
+	font-size: 7rem;
+	padding-top: 80px;
+	padding-bottom: 0;
+	margin: 0;
+}
+#frontpage h3 {
+	font-family: 'Montserrat', sans-serif;
+	color: #364455;
+	font-size: 4rem;
+	font-weight: 800;
+	padding-top: 50px;
+	padding-bottom: 40px;
+	margin: 0;
+}
+#frontpage h4 {
+	font-family: 'Montserrat', sans-serif;
+	color: #364455;
+	font-size: 2rem;
+	font-weight: 500;
+	padding-top: 30px;
+	padding-bottom: 40px;
+	margin: 0;
+}
+#frontpage {
+	margin-top: 60px;
+}
+#ourStory {
+	margin: 2rem;
+	margin-bottom: 100px;
+}
+#ourStory h2 {
+	font-family: 'Great Vibes', cursive;
+	font-weight: lighter;
+	color: #C28604;
+	font-style: italic;
+	font-size: 4rem;
+	margin: 0;
+	padding-top: 100px;
+	padding-bottom: 10px;
+}
+#ourStory h3 {
+	font-family: 'Montserrat', sans-serif;
+	color: #364455;
+	font-size: 2.5rem;
+	font-weight: 500;
+	padding-top: 10px;
+	padding-bottom: 0;
+	margin: 0;
+}
+#ourStory h5 {
+	font-family: 'Great Vibes', cursive;
+	font-size: 2rem;
+	opacity: 0.5;
+	color: #364455;
+	margin: 0;
+	padding-bottom: 10px;
+	padding-top: 30px;
+
+}
+#ourStory h6 a{
+	font-family: 'Montserrat', sans-serif;
+	color: #C28604;
+	font-size: 0.9rem;
+	font-weight: 500;
+	margin: 0;
+	padding-top: 25px;
+	text-decoration: none;
+	border-bottom: 2px solid #C28604
+}
+#ourStory p {
+	font-family: 'Montserrat', sans-serif;
+	color: #364455;
+	font-size: 0.9rem;
+	font-weight: 400;
+	margin: 0;
+	padding-top: 0;
+	padding-bottom: 0;
+	padding-right: 7rem;
+	padding-left: 7rem;
+}
+#ourStory img {
+	padding-top: 65px;
+	padding-left: 0;
+	padding-bottom: 0;
+	padding-right: 4rem;
+}
+#recipes {
+	background-image: url('images/recipeBgd.jpg');
+	background-size: cover;
+	background-position: center;
+	height: 500px;
+}
+#recipes h2 {
+margin: 0;
+padding-top: 250px;
+padding-bottom: 50px;
+font-family: 'Great Vibes', cursive;
+font-weight: lighter;
+font-size: 6rem;
+color: #C28604;
+}
+#recipes h3 {
+margin: 0;
+font-family: 'Montserrat', sans-serif;
+font-size: 3rem;
+color: white;
+}
+
+#menu {
+	margin: 2rem;
+	margin-left: 0;
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+#menu h2 {
+	font-family: 'Great Vibes', cursive;
+	font-weight: lighter;
+	color: #C28604;
+	font-style: italic;
+	font-size: 4rem;
+	margin: 0;
+	padding-top: 100px;
+	padding-bottom: 10px;
+}
+#menu h3 {
+	font-family: 'Montserrat', sans-serif;
+	color: #364455;
+	font-size: 2.5rem;
+	font-weight: 500;
+	padding-top: 10px;
+	padding-bottom: 0;
+	margin: 0;
+}
+#menu h5 {
+	font-family: 'Great Vibes', cursive;
+	font-size: 2rem;
+	opacity: 0.5;
+	color: #364455;
+	margin: 0;
+	padding-bottom: 10px;
+	padding-top: 30px;
+
+}
+#menu h6 a{
+	font-family: 'Montserrat', sans-serif;
+	color: #C28604;
+	font-size: 0.9rem;
+	font-weight: 500;
+	margin: 0;
+	padding-top: 25px;
+	text-decoration: none;
+	border-bottom: 2px solid #C28604
+}
+#menu p {
+	font-family: 'Montserrat', sans-serif;
+	color: #364455;
+	font-size: 0.9rem;
+	font-weight: 400;
+	margin: 0;
+	padding-top: 0;
+	padding-bottom: 0;
+	padding-right: 7rem;
+	padding-left: 7rem;
+}
+#menu img {
+	padding-top: 5px;
+}
+
+#blend {
+	background-image: url('images/blendBgd.jpg');
+	background-size: cover;
+	background-position: center;
+	height: 500px;
+}
+#blend h2 {
+margin: 0;
+padding-top: 250px;
+padding-bottom: 50px;
+font-family: 'Great Vibes', cursive;
+font-weight: lighter;
+font-size: 6rem;
+color: #C28604;
+}
+#blend h3 {
+margin: 0;
+font-family: 'Montserrat', sans-serif;
+font-size: 3rem;
+color: white;
+}
+
+#reservation {
+	margin: 2rem;
+	margin-bottom: 100px;
+
+}
+#reservation h2 {
+	font-family: 'Great Vibes', cursive;
+	font-weight: lighter;
+	color: #C28604;
+	font-style: italic;
+	font-size: 4rem;
+	margin: 0;
+	padding-top: 100px;
+	padding-bottom: 10px;
+}
+#reservation h3 {
+	font-family: 'Montserrat', sans-serif;
+	color: #364455;
+	font-size: 2.5rem;
+	font-weight: 500;
+	padding-top: 10px;
+	padding-bottom: 0;
+	margin: 0;
+}
+#reservation h5 {
+	font-family: 'Great Vibes', cursive;
+	font-size: 2rem;
+	opacity: 0.5;
+	color: #364455;
+	margin: 0;
+	padding-bottom: 10px;
+	padding-top: 30px;
+
+}
+#reservation h6 a{
+	font-family: 'Montserrat', sans-serif;
+	color: #C28604;
+	font-size: 0.9rem;
+	font-weight: 500;
+	margin: 0;
+	padding-top: 25px;
+	text-decoration: none;
+	border-bottom: 2px solid #C28604
+}
+#reservation p {
+	font-family: 'Montserrat', sans-serif;
+	color: #364455;
+	font-size: 0.9rem;
+	font-weight: 400;
+	margin: 0;
+	padding-top: 0;
+	padding-bottom: 0;
+	padding-right: 7rem;
+	padding-left: 7rem;
+}
+#reservation img {
+	padding-top: 65px;
+	padding-left: 0;
+	padding-bottom: 0;
+}
+#contact {
+	background-color: #131329;
+}
+#contact h5 {
+	color: white;
+	font-size: 15px;
+	font-weight: 500;
+	font-family: 'Montserrat', sans-serif;
+}
+#contact p {
+	color: white;
+	font-weight: 200;
+}
+.block {
+	margin: auto;
+}
+img {
+	width: 90%;
+	padding-top: 2rem;
+	padding-left: 2rem;
+}
+hr.style1 {
+	height: 5px;
+	border: 0;
+	box-shadow: 0 10px 10px 10px #C28604 inset;
+	width: 20%;
+}
