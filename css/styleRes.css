@@ -1,0 +1,141 @@
+body {
+	font-family: 'Montserrat', sans-serif;
+	line-height: 1.5rem;
+	font-size: 12px;
+	margin: 0;
+}
+.top {
+	color: white;
+	background-image: url('images/about.jpg');
+	background-size: cover;
+	background-position: center;
+	height: 600px;
+}
+h1 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 30px;
+	font-weight: 500;
+	color: white;
+	text-decoration: underline;
+}
+#nav-bar li {
+	color: white;
+	display: inline;
+	list-style: none;
+	padding-right: 50px;
+	font-size: 1rem;
+}
+#nav-bar a {
+	text-decoration: none;
+	color: white;
+}
+#frontpage h2 {
+	font-family: 'Great Vibes', cursive;
+	font-weight: lighter;
+	color: #C28604;
+	font-style: italic;
+	font-size: 7rem;
+	padding-top: 80px;
+	padding-bottom: 0;
+	margin: 0;
+}
+#frontpage h3 {
+	font-family: 'Montserrat', sans-serif;
+	color: white;
+	font-size: 3.5rem;
+	font-weight: 800;
+	padding-top: 50px;
+	padding-bottom: 40px;
+	margin: 0;
+}
+#frontpage {
+	margin-top: 60px;
+}
+#location {
+  margin: 5rem;
+	margin-bottom: 50px;
+}
+#location h2 {
+  font-family: 'Great Vibes', cursive;
+	font-weight: lighter;
+	color: #C28604;
+	font-style: italic;
+	font-size: 7rem;
+	padding-top: 80px;
+	padding-bottom: 0;
+	margin: 0;
+}
+#location h3 {
+  font-family: 'Montserrat', sans-serif;
+	color: #364455;
+	font-size: 3.5rem;
+	font-weight: 800;
+	padding-top: 50px;
+	padding-bottom: 60px;
+	margin: 0;
+}
+#location h4 {
+	font-family: 'Montserrat', sans-serif;
+	color: #364455;
+	font-size: 1.5rem;
+	font-weight: 500;
+	padding-top: 30px;
+	padding-bottom: 15px;
+	margin: 0;
+}
+#location p {
+	font-family: 'Montserrat', sans-serif;
+	color: #364455;
+	font-size: 0.9rem;
+	font-weight: 400;
+	margin: 0;
+	padding-top: 0;
+	padding-bottom: 0;
+	padding-right: 7rem;
+	padding-left: 7rem;
+}
+#location button {
+  padding: 5px 10px;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #C28604;
+  color: white;
+  font-weight: 600;
+}
+#booking {
+  padding: 5rem;
+	padding-bottom: 50px;
+}
+#booking .bookingData {
+  width: 60%;
+  padding: 7px;
+}
+#booking .bookingAction {
+  width: 30%;
+  padding: 7px;
+}
+.bottom {
+	background-color: #364455;
+}
+.block {
+	margin: auto;
+}
+img {
+	width: 90%;
+	padding-top: 2rem;
+	padding-left: 2rem;
+}
+hr.style1 {
+	height: 5px;
+	border: 0;
+	box-shadow: 0 10px 10px 10px #C28604 inset;
+	width: 30%;
+}
+hr.fade {
+  border: 0;
+	height: 5px;
+  background-image: -webkit-linear-gradient(left, #f0f0f0, #C28604, #f0f0f0);
+  background-image: -moz-linear-gradient(left, #f0f0f0, #C28604, #f0f0f0);
+  background-image: -ms-linear-gradient(left, #f0f0f0, #C28604, #f0f0f0);
+  background-image: -o-linear-gradient(left, #f0f0f0, #C28604, #f0f0f0);
+  width: 250px;
+}

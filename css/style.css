@@ -286,16 +286,28 @@ color: white;
 }
 #contact {
 	background-color: #131329;
+	padding: 3rem;
 }
 #contact h5 {
 	color: white;
 	font-size: 15px;
 	font-weight: 500;
 	font-family: 'Montserrat', sans-serif;
+	padding: 0;
 }
 #contact p {
 	color: white;
 	font-weight: 200;
+	padding: 0;
+}
+#contact .info {
+	padding-left: 10rem;
+}
+#contact .info2 {
+	padding-left: 5rem;
+}
+#contact #bug {
+	color: #131329;
 }
 .block {
 	margin: auto;
