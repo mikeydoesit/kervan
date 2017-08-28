@@ -309,6 +309,27 @@ color: white;
 #contact #bug {
 	color: #131329;
 }
+#footer {
+	background-color: #0E131C;
+	padding: 2rem;
+}
+#footer p {
+	color: white;
+}
+#footer li {
+	color: white;
+	display: inline;
+	list-style: none;
+	padding-right: 50px;
+	font-size: 1rem;
+}
+#footer a {
+	text-decoration: none;
+	color: white;
+}
+#footer i:hover{
+	color: #C28604;
+}
 .block {
 	margin: auto;
 }

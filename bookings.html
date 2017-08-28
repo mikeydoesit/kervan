@@ -58,6 +58,7 @@
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
           <h2>Choose a</h2>
   				<h3>L O C A T I O N</h3>
+          <h5>*</h5>
         </div>
       </div>
 
@@ -95,28 +96,80 @@
       </div>
     </div>
   </section>
-  
+
   <!--booking-->
   <div class="bottom">
   <section id="booking">
     <div class="block container-fluid">
       <div class="row center-xs center-sm center-md center-lg middle-xs middle-sm middle-md middle-lg">
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+          <h2>Reservations</h2>
+  				<h3>B O O K &nbsp; A &nbsp; T A B L E</h3>
+          <h5>*</h5>
           <form>
-            <input type="number" placeholder="Select People" class="bookingData" required><br>
+            <select id="branch" name="branch">
+              <option value="churchSt">Church Street</option>
+              <option value="hertfordRd">Hertford Road</option>
+              <option value="southgate">Southgate</option>
+              <option value="woodgreen">Wood Green</option>
+            </select><br>
+            <input type="number" placeholder="Select People" class="bookingData" min="1" max="10" required><br>
             <input type="date" placeholder="Select Date" class="bookingData" required><br>
-            <input type="time" placeholder="Select Time" class="bookingData" required><br>
+            <select id="time" name="time">
+              <option value="12:00 PM">12:00 PM</option>
+              <option value="12:30 PM">12:30 PM</option>
+              <option value="01:00 PM">01:00 PM</option>
+              <option value="01:30 PM">01:30 PM</option>
+              <option value="02:00 PM">02:00 PM</option>
+              <option value="02:30 PM">02:30 PM</option>
+              <option value="03:00 PM">03:00 PM</option>
+              <option value="03:30 PM">03:30 PM</option>
+              <option value="04:00 PM">04:00 PM</option>
+              <option value="04:30 PM">04:30 PM</option>
+              <option value="05:00 PM">05:00 PM</option>
+              <option value="05:30 PM">05:30 PM</option>
+              <option value="06:00 PM">06:00 PM</option>
+              <option value="06:30 PM">06:30 PM</option>
+              <option value="07:00 PM">07:00 PM</option>
+              <option value="07:30 PM">07:30 PM</option>
+              <option value="08:00 PM">08:00 PM</option>
+              <option value="08:30 PM">08:30 PM</option>
+              <option value="09:00 PM">09:00 PM</option>
+              <option value="09:30 PM">09:30 PM</option>
+              <option value="10:00 PM">10:00 PM</option>
+              <option value="10:30 PM">10:30 PM</option>
+            </select><br>
             <input type="text" placeholder="First Name" class="bookingData" required><br>
             <input type="text" placeholder="Last Name" class="bookingData" required><br>
             <input type="email" placeholder="Email" class="bookingData"><br>
             <input type="text" placeholder="Telephone Number" class="bookingData" required><br>
-            <input type="reset" placeholder="Clear Booking Details" class="bookingAction"><input type="submit" value="Reserve" class="bookingAction">
+            <input type="reset" value="Clear Booking Details" class="bookingAction"><input type="submit" value="Reserve" class="bookingAction">
           </form>
         </div>
       </div>
     </div>
   </section>
 </div>
+
+<!--footer-->
+<section id="footer">
+	<div class="block container-fluid">
+		<div class="row center-xs center-sm center-md center-lg middle-xs middle-sm middle-md middle-lg">
+			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+				<ul>
+          <li><a target="_blank" href="https://www.facebook.com/pages/Kervan-Sofrasi/108635489198334"><i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i></a></li>
+					<li><a target="_blank" href="https://twitter.com/kervansofrasi?lang=en"><i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i></a></li>
+					<li><a target="_blank" href="https://www.instagram.com/kervansofrasi_/"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="row center-xs center-sm center-md center-lg middle-xs middle-sm middle-md middle-lg">
+			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+				<p>&copy; 2017 Kervan Sofrasi &nbsp; | &nbsp; Website by <a target="_blank" href="https://mikeydoesit.github.io/portfolio/">Michael Obeng</a></p>
+			</div>
+		</div>
+	</div>
+</section>
 
 </body>
 </html>

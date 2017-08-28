@@ -83,6 +83,16 @@ h1 {
 	padding-bottom: 15px;
 	margin: 0;
 }
+#location h5 {
+	font-family: 'Great Vibes', cursive;
+	font-size: 2rem;
+	opacity: 0.5;
+	color: #364455;
+	margin: 0;
+	padding-bottom: 10px;
+	padding-top: 10px;
+
+}
 #location p {
 	font-family: 'Montserrat', sans-serif;
 	color: #364455;
@@ -105,13 +115,93 @@ h1 {
   padding: 5rem;
 	padding-bottom: 50px;
 }
+#booking select {
+	width: 25%;
+	padding: 7px;
+	margin-top: 12px;
+	margin-bottom: 12px;
+	border-radius: 5px;
+}
 #booking .bookingData {
-  width: 60%;
-  padding: 7px;
+	width: 60%;
+	padding: 7px;
+	margin: 8px 0;
+	border-radius: 5px;
+}
+#booking input :focus {
+    border: 3px solid lightblue;
 }
 #booking .bookingAction {
-  width: 30%;
-  padding: 7px;
+  width: 25%;
+}
+#booking input[type=submit] {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 20px 20px;
+    cursor: pointer;
+		border-radius: 5px;
+}
+#booking input[type=reset] {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 20px 20px;
+    cursor: pointer;
+		border-radius: 5px;
+}
+#booking h2 {
+	font-family: 'Great Vibes', cursive;
+	font-weight: lighter;
+	color: #C28604;
+	font-style: italic;
+	font-size: 7rem;
+	padding-top: 80px;
+	padding-bottom: 0;
+	margin: 0;
+}
+#booking h3 {
+	font-family: 'Montserrat', sans-serif;
+	color: white;
+	font-size: 3.5rem;
+	font-weight: 800;
+	padding-top: 50px;
+	padding-bottom: 40px;
+	margin: 0;
+}
+#booking h5 {
+	font-family: 'Great Vibes', cursive;
+	font-size: 2rem;
+	opacity: 0.5;
+	color: #364455;
+	margin: 0;
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+#footer {
+	background-color: #0E131C;
+	padding: 2rem;
+}
+#footer p {
+	color: white;
+}
+#footer li {
+	color: white;
+	display: inline;
+	list-style: none;
+	padding-right: 50px;
+	font-size: 1rem;
+}
+#footer a {
+	text-decoration: none;
+	color: white;
+}
+#footer i:hover{
+	color: #C28604;
 }
 .bottom {
 	background-color: #364455;
