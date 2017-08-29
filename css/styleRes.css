@@ -110,6 +110,7 @@ h1 {
   background-color: #C28604;
   color: white;
   font-weight: 600;
+	cursor: pointer;
 }
 #booking {
   padding: 5rem;
@@ -118,21 +119,31 @@ h1 {
 #booking select {
 	width: 25%;
 	padding: 7px;
-	margin-top: 12px;
-	margin-bottom: 12px;
+	margin-top: 8px;
+	margin-bottom: 8px;
+	border-radius: 5px;
+}
+#booking .bookingInfo {
+	width: 24%;
+	padding: 7px;
+	margin-top: 8px;
+	margin-bottom: 8px;
 	border-radius: 5px;
 }
 #booking .bookingData {
-	width: 60%;
+	width: 50%;
 	padding: 7px;
-	margin: 8px 0;
+	margin: 7px;
 	border-radius: 5px;
+}
+#booking label {
+	color: white;
 }
 #booking input :focus {
     border: 3px solid lightblue;
 }
 #booking .bookingAction {
-  width: 25%;
+  width: 23%;
 }
 #booking input[type=submit] {
     background-color: #4CAF50;

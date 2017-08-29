@@ -4,6 +4,8 @@
 <head>
   <title>Reservations | Kervan Sofrasi</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" href="css/images/favicon-32x32.png" sizes="32x32" />
+  <link rel="icon" type="image/png" href="css/images/favicon-16x16.png" sizes="16x16" />
 	<link href="https://fonts.googleapis.com/css?family=Alex+Brush|Great+Vibes|Hammersmith+One|Herr+Von+Muellerhoff|Montserrat:200,400,500,800|Rochester" rel="stylesheet">
 	<link rel="stylesheet" href="css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="css/styleRes.css">
@@ -25,7 +27,7 @@
   			<div class="col-xs-12 col-sm-9 col-md-9 col-lg-9">
   				<nav id="nav-bar">
   					<ul>
-  					<li><a href="#ourStory">Welcome</a></li>
+  					<li><a href="index.html#frontpage">Home</a></li>
   					<li><a href="menu.pdf" target="blank">Menu</a></li>
   					<li><a href="bookings.html">Reservations</a></li>
   					<li><a href="https://www.facebook.com/pages/Kervan-Sofrasi/108635489198334" target="blank">News</a></li>
@@ -68,14 +70,14 @@
           <p>80 Church Street</p>
   				<p>London, N9 9PB</p>
           <br>
-          <a href="#booking"><button>SELECT</button></a>
+          <a target="_blank" href="https://www.google.co.uk/maps/place/Church+St,+London+N9+9PB/data=!4m2!3m1!1s0x48761eeeabae818f:0x6b4363f0da471efc?sa=X&ved=0ahUKEwjMuaX_g_zVAhVBLZoKHc8kAPIQ8gEILjAB"><button>DIRECTIONS</button></a>
         </div>
         <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
           <h4>HERTFORD RD EDMONTON</h4>
           <p>171 Hertford Road</p>
   				<p>London, N9 7EP</p>
           <br>
-          <a href="#booking"><button>SELECT</button></a>
+          <a target="_blank" href="https://www.google.co.uk/maps/place/Hertford+Rd,+London+N9+7EP/data=!4m2!3m1!1s0x48761efa7b6ce88d:0x2a5a1f14457f277a?sa=X&ved=0ahUKEwiqvOb8hPzVAhWqJ5oKHTYoAuYQ8gEIdDAK"><button>DIRECTIONS</button></a>
         </div>
       </div>
       <div class="row center-xs center-sm center-md center-lg middle-xs middle-sm middle-md middle-lg">
@@ -84,14 +86,14 @@
           <p>183 High Road</p>
   				<p>London, N22 6BA</p>
           <br>
-          <a href="#booking"><button>SELECT</button></a>
+          <a target="_blank" href="https://www.google.co.uk/maps/place/High+Rd,+Wood+Green,+London+N22+6BA/data=!4m2!3m1!1s0x48761be39fb01529:0xac6390078774ad7d?sa=X&ved=0ahUKEwi93aGbhfzVAhVMMZoKHQl9AVIQ8gEILTAB"><button>DIRECTIONS</button></a>
         </div>
         <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
           <h4>SOUTHGATE</h4>
           <p>107 Chase Side</p>
   				<p>London, N14 6HD</p>
           <br>
-          <a href="#booking"><button>SELECT</button></a>
+          <a target="_blank" href="https://www.google.co.uk/maps/place/London+N14+6HD/data=!4m2!3m1!1s0x487619100ad218e9:0x5e3ac203cedbeec7?sa=X&ved=0ahUKEwiz3ZK9hfzVAhWlHJoKHW-XA38Q8gEIYzAK"><button>DIRECTIONS</button></a>
         </div>
       </div>
     </div>
@@ -107,14 +109,18 @@
   				<h3>B O O K &nbsp; A &nbsp; T A B L E</h3>
           <h5>*</h5>
           <form>
+            <label for="branch">Select Branch</label><br>
             <select id="branch" name="branch">
               <option value="churchSt">Church Street</option>
               <option value="hertfordRd">Hertford Road</option>
               <option value="southgate">Southgate</option>
               <option value="woodgreen">Wood Green</option>
             </select><br>
-            <input type="number" placeholder="Select People" class="bookingData" min="1" max="10" required><br>
-            <input type="date" placeholder="Select Date" class="bookingData" required><br>
+            <label for="date">Select People</label><br>
+            <input type="number" placeholder="2" class="bookingInfo" min="1" max="10" required><br>
+            <label for="date">Select Date</label><br>
+            <input type="date" id="date" class="bookingInfo" required><br>
+            <label for="time">Select Time</label><br>
             <select id="time" name="time">
               <option value="12:00 PM">12:00 PM</option>
               <option value="12:30 PM">12:30 PM</option>
@@ -138,7 +144,7 @@
               <option value="09:30 PM">09:30 PM</option>
               <option value="10:00 PM">10:00 PM</option>
               <option value="10:30 PM">10:30 PM</option>
-            </select><br>
+            </select><br><br>
             <input type="text" placeholder="First Name" class="bookingData" required><br>
             <input type="text" placeholder="Last Name" class="bookingData" required><br>
             <input type="email" placeholder="Email" class="bookingData"><br>
