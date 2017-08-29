@@ -250,3 +250,108 @@ hr.fade {
   background-image: -o-linear-gradient(left, #f0f0f0, #C28604, #f0f0f0);
   width: 250px;
 }
+
+/*media queries*/
+
+@media(max-width:800px) {
+	#frontpage h2 {
+		font-size: 4rem;
+		padding-top: 40px;
+		padding-bottom: 5px;
+		margin: 0;
+	}
+	#frontpage h3 {
+		font-size: 1.5rem;
+		font-weight: 800;
+		padding-top: 25px;
+		padding-bottom: 20px;
+		margin: 0;
+	}
+	#frontpage h4 {
+		font-size: 1.2rem;
+		font-weight: 500;
+		padding-top: 15px;
+		padding-bottom: 20px;
+		margin: 0;
+	}
+	#location {
+		margin: 25px 0;
+	}
+	#location h2 {
+		font-size: 4.5rem;
+		padding-top: 70px;
+		padding-bottom: 5px;
+	}
+	#location h3 {
+		font-size: 2rem;
+		padding-top: 20px;
+		padding-bottom: 40px;
+	}
+	#location p {
+		padding-right: 1rem;
+		padding-left: 1rem;
+	}
+	#booking {
+	  padding: 1rem;
+		padding-bottom: 50px;
+	}
+	#booking h2 {
+		font-size: 4rem;
+		padding-top: 70px;
+		padding-bottom: 5px;
+	}
+	#booking h3 {
+		font-size: 1.7rem;
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+	#booking select {
+		width: 82%;
+	}
+	#booking .bookingInfo {
+		width: 78%;
+	}
+	#booking .bookingData {
+		width: 80%;
+	}
+	#booking .bookingAction {
+	  width: 79%;
+	}
+	#booking input[type=submit] {
+	    margin: 10px 10px;
+	}
+	#booking input[type=reset] {
+	    margin: 20px 10px;
+	}
+	#footer ul {
+		padding-left: 0;
+	}
+	#footer li {
+		padding: 5px 20px;
+	}
+	#footer p {
+		font-size: 0.6rem;
+	}
+	img {
+		width: 90%;
+		padding-top: 1rem;
+		padding-left: 0;
+	}
+}
+
+@media(max-width:768px) {
+	#header #logo {
+		padding-right: 0;
+		width: 8rem;
+	}
+}
+
+@media(max-width:502px) {
+	#nav-bar ul {
+		padding-left: 0;
+	}
+	#nav-bar li {
+		padding-right: 6px;
+		font-size: 0.9rem;
+	}
+}
