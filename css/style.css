@@ -31,6 +31,7 @@ h1 {
 #nav-bar li.current a, #nav-bar a:hover {
 	color: #C28604;
 	border-bottom: 3px solid #C28604;
+	padding-bottom: 3px;
 }
 #frontpage h2 {
 	font-family: 'Great Vibes', cursive;
